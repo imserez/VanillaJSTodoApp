@@ -2,6 +2,15 @@
 
 ## See this project live in: https://imserez.github.io/VanillaJSTodoApp/ 
 
+
+## Screenshots
+
+<img width="1383" height="614" alt="Screenshot from 2025-10-31 15-05-58" src="https://github.com/user-attachments/assets/884dcf4b-cdb0-43cc-99c4-058367f3c341" />
+
+<img width="1383" height="614" alt="Screenshot from 2025-10-31 15-06-23" src="https://github.com/user-attachments/assets/1775ef21-cc0a-4787-8759-a7b2064f7e17" />
+
+<img width="1383" height="614" alt="Screenshot from 2025-10-31 15-07-11" src="https://github.com/user-attachments/assets/84e61908-fdbe-4d1f-87b2-e1d23e9c85bf" />
+
 ## Instructions
 
 - RUN `npm install` to install the packages.
@@ -13,6 +22,14 @@
 The github pages is in the `gh-branch` branch and can be deployed using `npm run deploy`, which will copy the contents of the `dist/` folder in the `gh-branch`. Remember to use `npm run build` to generate the `dist` folder.
 
 ## Project Description
+This is a simple VanillaJS, HTML & CSS To-Do App that allows you to save your to-do's in your web browser's local storage. Allows you to:
+- Create new folders
+- Create new tasks
+- Edit tasks
+- Delete tasks
+- Delete folders
+- Mark tasks as completed
+- Save your progress in your web browser's local storage.
 
 The aim of this project is to play with Vanilla JS, focusing on objects and modules, and also generating all the content dynamically with JS. It allowed me to discover new ways to efficiently use OOP in JS.
 
@@ -136,14 +153,8 @@ export default function taskCard(task, taskToggle, taskDelete, taskEdit) {
 
 As we can see, the component is accepting (task, taskToggle, taskDelete and TaskEdit) that are assigned as `events`. `            events: { click: () => taskEdit(task.id) },`
 
-## Screenshots
-
-<img width="1383" height="614" alt="Screenshot from 2025-10-31 15-05-58" src="https://github.com/user-attachments/assets/884dcf4b-cdb0-43cc-99c4-058367f3c341" />
-
-<img width="1383" height="614" alt="Screenshot from 2025-10-31 15-06-23" src="https://github.com/user-attachments/assets/1775ef21-cc0a-4787-8759-a7b2064f7e17" />
-
-<img width="1383" height="614" alt="Screenshot from 2025-10-31 15-07-11" src="https://github.com/user-attachments/assets/84e61908-fdbe-4d1f-87b2-e1d23e9c85bf" />
 
 ## Use of AI in this project
 
 The main objective of this project was to use vanilla JS. AI was not present during the development of this app. However, AI assisted in upgrading the quality of the CSS Code in a way that helped refactor the CSS rules and perfect the CSS animations. That was outside the main objectives of this development project.
+
