@@ -156,5 +156,6 @@ As we can see, the component is accepting (task, taskToggle, taskDelete and Task
 
 ## Use of AI in this project
 
-The main objective of this project was to use vanilla JS. AI was not present during the development of this app. However, AI assisted in upgrading the quality of the CSS Code in a way that helped refactor the CSS rules and perfect the CSS animations. That was outside the main objectives of this development project.
+The main objective of this project was to use vanilla JS. **AI was not present during the development of this app**. However, AI **assisted in upgrading the quality of the CSS Code** in a way that helped refactor the CSS rules and perfect the CSS animations. That was outside the main objectives of this development project.
+
 
